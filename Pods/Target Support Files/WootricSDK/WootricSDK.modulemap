@@ -1,0 +1,6 @@
+framework module WootricSDK {
+  umbrella header "WootricSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
