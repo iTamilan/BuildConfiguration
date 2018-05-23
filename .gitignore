@@ -28,6 +28,10 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 
+## Custom files ignore
+pre_action.log
+BuildConfiguration/Flavour
+
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
