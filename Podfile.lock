@@ -1,10 +1,7 @@
 PODS:
   - AngleGradientLayer (1.2.1)
-  - FormatterKit/TimeIntervalFormatter (1.8.0)
-  - GoogleAnalytics (3.17.0)
   - Intercom (4.1.3)
   - MBProgressHUD (1.1.0)
-  - Mixpanel (3.2.3)
   - PBWebViewController (0.3)
   - SDWebImage (4.2.3):
     - SDWebImage/Core (= 4.2.3)
@@ -14,11 +11,8 @@ PODS:
 
 DEPENDENCIES:
   - AngleGradientLayer (= 1.2.1)
-  - FormatterKit/TimeIntervalFormatter (from `https://github.com/mattt/FormatterKit.git`, commit `9bf991a80d120e0c3b4fc4f08c5628e2c64212c0`)
-  - GoogleAnalytics (= 3.17.0)
   - Intercom (= 4.1.3)
   - MBProgressHUD (= 1.1.0)
-  - Mixpanel (= 3.2.3)
   - PBWebViewController (= 0.3)
   - SDWebImage
   - UICKeyChainStore (= 2.1.0)
@@ -27,37 +21,22 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AngleGradientLayer
-    - GoogleAnalytics
     - Intercom
     - MBProgressHUD
-    - Mixpanel
     - PBWebViewController
     - SDWebImage
     - UICKeyChainStore
     - WootricSDK
 
-EXTERNAL SOURCES:
-  FormatterKit:
-    :commit: 9bf991a80d120e0c3b4fc4f08c5628e2c64212c0
-    :git: https://github.com/mattt/FormatterKit.git
-
-CHECKOUT OPTIONS:
-  FormatterKit:
-    :commit: 9bf991a80d120e0c3b4fc4f08c5628e2c64212c0
-    :git: https://github.com/mattt/FormatterKit.git
-
 SPEC CHECKSUMS:
   AngleGradientLayer: ca994d14c307accf710a29beb9e46ea907e62bd0
-  FormatterKit: 4c543e9dd7ac658136f9d8b2c28ac13d05107131
-  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
   Intercom: 72319a42bcec50f5e377c160f10363de925ef23c
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
-  Mixpanel: 7bd8e176f088936bf6e283ade0d1f512f8e723bc
   PBWebViewController: 909b1505da6ba7c5c82519a6457246027926061e
   SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
   UICKeyChainStore: f1cbd42216a113f0165de1e733e62905b8823432
   WootricSDK: d341879774cf768128087ef95f0d72074dbb0620
 
-PODFILE CHECKSUM: 31bbac3206d9cf8faa491a057aead16490503967
+PODFILE CHECKSUM: f892a959a6b14df8113820adc59a22ceac700a6a
 
 COCOAPODS: 1.5.0

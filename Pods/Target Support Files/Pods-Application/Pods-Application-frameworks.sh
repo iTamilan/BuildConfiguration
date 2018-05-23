@@ -144,9 +144,7 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AngleGradientLayer/AngleGradientLayer.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/FormatterKit/FormatterKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Mixpanel/Mixpanel.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PBWebViewController/PBWebViewController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/UICKeyChainStore/UICKeyChainStore.framework"
@@ -154,9 +152,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AngleGradientLayer/AngleGradientLayer.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/FormatterKit/FormatterKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Mixpanel/Mixpanel.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PBWebViewController/PBWebViewController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/UICKeyChainStore/UICKeyChainStore.framework"

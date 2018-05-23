@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.flavourLabel.text = [NSString stringWithFormat:@"%@\n%@",[[NSBundle mainBundle] bundleIdentifier], [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"]];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
